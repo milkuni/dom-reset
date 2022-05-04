@@ -1,0 +1,12 @@
+{
+  "name": "dom-reset",
+  "version": "0.0.0",
+  "description": "Reset CSS In Dom",
+  "main": "",
+  "keywords": [
+    "css reset",
+    "dom css reset"
+  ],
+  "author": "milkuni",
+  "license": "MIT"
+}
