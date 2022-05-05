@@ -34,3 +34,13 @@
    margin: 0; /* 4 */
  }
 
+/**
+ * 5. Remove default Style
+ * 6. Remove default margin and padding
+ */
+ ul,
+ ol {
+  list-style: none; /* 5 */
+  margin: 0; /* 6 */
+  padding: 0; /* 6 */
+ }
