@@ -1,0 +1,8 @@
+/**
+ * 1. All elements are border box
+ */
+ *,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }
