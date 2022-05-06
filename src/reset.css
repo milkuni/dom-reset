@@ -54,3 +54,20 @@ textarea,
 select {
   font: inherit;
 }
+
+/**
+ * 8. Remove default Border
+ * 9. Remove default margin and padding
+ */
+ fieldset {
+   border: none; /* 8 */
+   margin: 0; /* 9 */
+   padding: 0; /* 9 */
+ }
+
+/**
+ * 10. Remove default padding
+ */
+ legend {
+  padding: 0; /* 10 */
+ }
