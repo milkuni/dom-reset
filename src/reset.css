@@ -47,27 +47,30 @@
 
 /**
  * 7. Form element font inheritance
+ * 8. Remove default outline
  */
 input,
 button,
 textarea,
 select {
-  font: inherit;
+  font: inherit; /* 7 */
+  outline: none; /* 8 */
 }
 
 /**
- * 8. Remove default Border
- * 9. Remove default margin and padding
+ * 9. Remove default Border
+ * 10. Remove default margin and padding
  */
- fieldset {
-   border: none; /* 8 */
-   margin: 0; /* 9 */
-   padding: 0; /* 9 */
+ fieldset,
+ dialog {
+   border: none; /* 9 */
+   margin: 0; /* 10 */
+   padding: 0; /* 10 */
  }
 
 /**
- * 10. Remove default padding
+ * 11. Remove default padding
  */
  legend {
-  padding: 0; /* 10 */
+  padding: 0; /* 11 */
  }
